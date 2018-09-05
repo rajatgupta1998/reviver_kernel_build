@@ -5,3 +5,7 @@ echo "Setting up the build environment"
 echo "Updating your Arch system, please wait a while"
 
 sudo pacman -Syu
+
+# Let us use pacaur for installing packages from the AUR (Arch User Repository)
+
+sudo pacman -S pacaur
