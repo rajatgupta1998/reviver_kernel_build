@@ -24,3 +24,9 @@ for var in ncurses5-compat-libs lib32-ncurses5-compat-libs;
         cd ..
         rm -rf $var
     done
+
+# Install these packages
+
+pacaur -S aosp-devel lineageos-devel gradle maven
+
+echo "Build Packages have been installed"
