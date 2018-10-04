@@ -9,9 +9,17 @@ sudo pacman -Syu
 # Let's git the shit
 sudo pacman -S git
 
-# Let us use pacaur for installing packages from the AUR (Arch User Repository)
+# Let us use Yay for installing packages from the AUR (Arch User Repository)
 
-sudo pacman -S pacaur
+git clone https://aur.archlinux.org/yay.git
+
+cd yay
+
+makepkg -si
+
+cd ..
+
+rm -rf yay
 
 # Installing the bare level packages which are needed
 
