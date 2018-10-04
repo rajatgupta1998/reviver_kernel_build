@@ -26,7 +26,7 @@ yay -Syyu
 
 # Installing the bare level packages which are needed
 
-pacaur -S base-devel wget multilib-devel cmake svn clang
+yay -S base-devel wget multilib-devel cmake svn clang
 
 # The gpg key for the following packages isn't working as of now, so skip the gpg check. kanged from @akhilnarang 's for loop. :p
 
@@ -41,6 +41,6 @@ for var in ncurses5-compat-libs lib32-ncurses5-compat-libs;
 
 # Install these packages
 
-pacaur -S aosp-devel lineageos-devel gradle maven
+yay -S aosp-devel lineageos-devel gradle maven
 
 echo "Build Packages have been installed"
