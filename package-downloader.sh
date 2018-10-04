@@ -21,6 +21,9 @@ cd ..
 
 rm -rf yay
 
+# First run
+yay -Syyu
+
 # Installing the bare level packages which are needed
 
 pacaur -S base-devel wget multilib-devel cmake svn clang
