@@ -26,3 +26,8 @@ export ARCH=arm && export SUBARCH=arm
 # Build defconfig
 
 make O=out athene_defconfig
+
+
+# Build the zImage
+
+time make O=out
