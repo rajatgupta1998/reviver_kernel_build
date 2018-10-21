@@ -17,3 +17,7 @@ cd ..
 cd source/nougat-7.1.2-arm
 
 mkdir -p out
+
+# Set the device architecture
+
+export ARCH=arm && export SUBARCH=arm
