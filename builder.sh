@@ -21,3 +21,8 @@ mkdir -p out
 # Set the device architecture
 
 export ARCH=arm && export SUBARCH=arm
+
+
+# Build defconfig
+
+make O=out athene_defconfig
